@@ -21,7 +21,7 @@ function App() {
       <div className="page">
         <div className="page__content">
           <div className="page__content-image">
-            <img src="/Images/Dragon.png" alt="img" />
+            <img src="Images/Dragon.png" alt="img" />
           </div>
           <div className="page__content-form">
             <div className="page__content-form-container">
