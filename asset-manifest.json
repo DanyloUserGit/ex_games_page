@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ex_games_page/static/css/main.3d8014eb.css",
+    "main.js": "/ex_games_page/static/js/main.01a3a07c.js",
+    "index.html": "/ex_games_page/index.html",
+    "main.3d8014eb.css.map": "/ex_games_page/static/css/main.3d8014eb.css.map",
+    "main.01a3a07c.js.map": "/ex_games_page/static/js/main.01a3a07c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d8014eb.css",
+    "static/js/main.01a3a07c.js"
+  ]
+}
