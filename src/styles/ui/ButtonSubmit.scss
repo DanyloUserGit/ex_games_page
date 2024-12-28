@@ -1,0 +1,16 @@
+.buttonsubmit{
+    width: 100%;
+    background-color: #E80004;
+    color: #FFFFFF;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 19.1px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1367px){
+    .buttonsubmit{
+        font-size: 13.59px;
+        margin-top: 14px;
+    }
+}

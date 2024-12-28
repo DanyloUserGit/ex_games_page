@@ -1,0 +1,121 @@
+.input{
+    position: relative;
+    background-color: #2F2424;
+    width: 100%;
+    height: 46px;
+    margin: 10px 0;
+    &__label{
+        position: absolute;
+        left:22px;
+        top: -30%;
+        color: #7E6969;
+        background-color: #1F1818;
+        padding: 5px;
+    }
+    &__icon{
+        position: absolute;
+        max-width: fit-content;
+        top: 30%;
+        right: 13px;
+    }
+    &__emailButton{
+        background-color: #453535;
+        color: #988080;
+        padding: 4px 13px;
+        position: absolute;
+        top:20%;
+        right: 43px;
+        max-width: fit-content;
+    }
+    &__error{
+        li{
+            list-style:disc;
+        }
+        margin-left: 5%;
+        z-index: 5;
+        font-size: 13.37px;
+        color: #5D4D4D;
+    }
+    input{
+        background-color: #2F2424;
+        border: 0;
+        position: absolute;
+        width: 85%;
+        height: 100%;
+        padding: 0 15px;
+        color: #7E6969;
+        font-size: 20px;
+    }
+    input:focus, input:active{
+        border: 0;
+        outline: 0;
+    }
+}
+@media screen and (max-width: 1921px){
+    .input__wrapper{
+        margin: 40px 0;
+    }
+}
+@media screen and (max-width: 1367px){
+    .input__wrapper{
+        margin: 20px 0;
+    }
+    .input{
+        height: 33.3px;
+        svg{
+            height: 14.27px;
+        }
+        &__label{
+            font-size: 8.83px;
+            top: -25%;
+        }
+        &__emailButton{
+            font-size: 9.51px;
+        }
+        &__error{
+            font-size: 9.51px;
+        }
+    }
+}
+@media screen and (max-width: 2561px){
+    .input__wrapper{
+        margin: 44px 0;
+    }
+    .input{
+        height: 46.8px;
+        svg{
+            height: 20.54px;
+        }
+        &__label{
+            font-size: 12.42px;
+            top: -30%;
+        }
+        &__emailButton{
+            font-size: 13.37px;
+        }
+        &__error{
+            font-size: 13.37px;
+        }
+    }
+}
+@media screen and (max-width: 3841px){
+    .input__wrapper{
+        margin: 44px 0;
+    }
+    .input{
+        height: 46.8px;
+        svg{
+            height: 20.54px;
+        }
+        &__label{
+            font-size: 12.42px;
+            top: -30%;
+        }
+        &__emailButton{
+            font-size: 13.37px;
+        }
+        &__error{
+            font-size: 13.37px;
+        }
+    }
+}
